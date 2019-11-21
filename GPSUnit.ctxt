@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GPSUnit
+comment0.text=\n\ A\ GPSUnit\ object\ knows\ its\ location\ and\ its\ heading,so\ it\ \n\ calculates\ movement\ along\ th\ x\ and\ y\ coordinates\ and\ update\n\ degree\ from\ old\ data\ to\ new\ one.\n\ @author\ Adilet\ Momunaliev\n
+comment1.params=direction\ location
+comment1.target=GPSUnit(CompassHeading,\ CSC142Point)
+comment1.text=\n\ Create\ a\ GPSUnit\ defined\ \ by\ two\ \ given\ data\ such\ as\ \n\ location\ and\ direction\n\ @param\ direction\ the\ CompassHeading\ and\n\ location\ CSC142Point\n\ @throws\ throw\ a\ NullPointerException\ if\ either\ \n\ parameter\ is\ null\n
+comment2.params=units
+comment2.target=void\ move(double)
+comment2.text=\n\ \ Calculate\ delta_x\ and\ delta_y\ coordintes\ based\ on\ given\n\ \ units\ and\ angle\ to\ set\ x\ and\ y\ points\n\ \ @param\ units\ is\ magnitude\ of\ x\ and\ y\ coordinates\ \n\ \ @throw\ if\ units<0\ ,\ throw\ an\ IllegalArgumentEXception\ \n
+comment3.params=degree
+comment3.target=void\ turn(int)
+comment3.text=\n\ Change\ direction\ from\ old\ degree\ to\ new\ given\ data\ by\n\ updating\n\ @param\ degree\ is\ new\ given\ degree\ to\ update\n\ @throw\ if\ degree\ is\ out\ of\ [-180\ &&\ 180],\ \n\ throw\ IllegalArgumentException\n
+comment4.params=
+comment4.target=CompassHeading\ getHeading()
+comment4.text=\n\ Get\ the\ CompassHeading\ direction\n\ @return\ direction\ of\ the\ CompassHeading\n
+comment5.params=
+comment5.target=CSC142Point\ getLocation()
+comment5.text=\n\ \ Get\ location\ of\ this\ CSC142Point\n\ \ @return\ location\ of\ the\ CSC142Point\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ \ The\ string\ version\ of\ this\ GPSUnit\n\ \ @return\ string\ representation\n
+numComments=7

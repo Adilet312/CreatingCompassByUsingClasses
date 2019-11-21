@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CompassHeading
+comment0.text=\ A\ CompassHeading\ class\ is\ designed\ to\ set\ initial\ degree,\n\ check\ it\ is\ range\ between\ [0\ ,360),\ and\ get\ bearing\ within\ \n\ quadrant.\n\ @author\ Adilet\ Momunaliev\n\ \ \n
+comment1.params=initialDegree
+comment1.target=CompassHeading(int)
+comment1.text=\n\ This\ is\ constructor\ CompassHeading\ with\ a\ specified\n\ initialDegree.\n\ @param\ initialDegree\ that\ make\ of\ the\ CompassHeading\ to\ be\n\ constructed.\n\ @throws\ Exception\ if\ initialDegree\ is\ out\ of\ range\ \n\ between\ 0\ and\ 360.\n
+comment2.params=
+comment2.target=int\ getHeading()
+comment2.text=\n\ Get\ the\ initialDegree\ of\ this\ CompassHeading.\n\ @return\ initialDegree\n
+comment3.params=update
+comment3.target=void\ setHeading(int)
+comment3.text=\n\ \ Set\ the\ degree\ of\ the\ CompassHeading.\n\ \ @param\ update\ to\ check\ condition\ for\ the\ range.\n\ \ @throws\ Exception\ if\ after\ updating\ degree\ is\ out\ of\n\ \ range.\n
+comment4.params=
+comment4.target=java.lang.String\ getBearing()
+comment4.text=\n\ Get\ the\ value\ of\ Degree\ and\ check\ it\ by\ condition\n\ @return\ value\ of\ Degree\ based\ on\ condition.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ The\ string\ version\ of\ this\ CompassHeading\n\ @return\ the\ String\ representation\n
+numComments=6
