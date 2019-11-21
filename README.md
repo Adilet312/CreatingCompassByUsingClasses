@@ -6,9 +6,9 @@
 ##### By _**Adilet Momunaliev**_
 &nbsp;
 ## **Specs**
-* <constructor>
+* constructor:
 * CompassHeading(int initialDegrees) -- construct a CompassHeading object with the given degrees.  If that value is out of bounds, throw an IllegalArgumentException
-* <methods>
+* methods:
 * int getHeading() -- return the current heading
 * void setHeading(int update) -- set the CompassHeading to the given value.  If that value is out of bounds, throw an IllegalArgumentException.
 * String getBearing() -- return the compass bearing for this Heading as a String.
